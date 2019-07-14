@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Clippings</title>
+
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">Clippings</a>
+        </nav>
+
+        <div class="clippings_form">
+            <form>
+                <div class="form-group">
+                <label for="clippings_file">My Clippings.txt</label>
+                <input type="file" class="form-control" id="clippings_file" aria-describedby="clippings_file_help">
+                <small id="clippings_file_help" class="form-text text-muted">Connect your Kindle to PC and open documents/My Clippings.txt file</small>
+                </div>
+            </form>
+        </div>
+
+        <div class="accordion" id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingSample">
+                    <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <!-- Filled by JS -->
+                    </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingSample" data-parent="#accordion">
+                    <div class="card-body">
+                        <!-- Filled by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

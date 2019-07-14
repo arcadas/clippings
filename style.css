@@ -1,0 +1,6 @@
+.clippings_form {
+    padding: 20px 0;
+}
+.card:first-child {
+    display: none;
+}
